@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		316C1AE31E2D1AF8001B24B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE21E2D1AF8001B24B8 /* main.m */; };
-		316C1AE61E2D1AF8001B24B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE51E2D1AF8001B24B8 /* AppDelegate.m */; };
-		316C1AE91E2D1AF8001B24B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE81E2D1AF8001B24B8 /* ViewController.m */; };
 		316C1AEC1E2D1AF8001B24B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C1AEA1E2D1AF8001B24B8 /* Main.storyboard */; };
-		316C1AEF1E2D1AF8001B24B8 /* SnakeLadder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AED1E2D1AF8001B24B8 /* SnakeLadder.xcdatamodeld */; };
 		316C1AF11E2D1AF8001B24B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316C1AF01E2D1AF8001B24B8 /* Assets.xcassets */; };
 		316C1AF41E2D1AF8001B24B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C1AF21E2D1AF8001B24B8 /* LaunchScreen.storyboard */; };
 		316C1AFF1E2D1AF8001B24B8 /* SnakeLadderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AFE1E2D1AF8001B24B8 /* SnakeLadderTests.m */; };
 		316C1B0A1E2D1AF8001B24B8 /* SnakeLadderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B091E2D1AF8001B24B8 /* SnakeLadderUITests.m */; };
+		316C1B1D1E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */; };
+		316C1B1E1E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */; };
+		316C1B201E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
+		316C1B211E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
+		316C1B281E2E0F31001B24B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE81E2D1AF8001B24B8 /* ViewController.m */; };
+		316C1B2A1E2E0F4D001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
+		316C1B2B1E2E0F59001B24B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE51E2D1AF8001B24B8 /* AppDelegate.m */; };
+		316C1B2D1E2E1042001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */; };
+		31BD440C1E2E79030072D4A6 /* CB_Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BD440B1E2E79030072D4A6 /* CB_Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		316C1B051E2D1AF8001B24B8 /* SnakeLadderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeLadderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316C1B091E2D1AF8001B24B8 /* SnakeLadderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeLadderUITests.m; sourceTree = "<group>"; };
 		316C1B0B1E2D1AF8001B24B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316C1B181E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SnakeLadder+CoreDataClass.h"; path = "Model/SnakeLadder+CoreDataClass.h"; sourceTree = "<group>"; };
+		316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SnakeLadder+CoreDataClass.m"; path = "Model/SnakeLadder+CoreDataClass.m"; sourceTree = "<group>"; };
+		316C1B1A1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SnakeLadder+CoreDataProperties.h"; path = "Model/SnakeLadder+CoreDataProperties.h"; sourceTree = "<group>"; };
+		316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SnakeLadder+CoreDataProperties.m"; path = "Model/SnakeLadder+CoreDataProperties.m"; sourceTree = "<group>"; };
+		316C1B261E2D3000001B24B8 /* CB_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CB_Constants.h; path = Utility/CB_Constants.h; sourceTree = "<group>"; };
+		316C1B271E2DC38F001B24B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		31BD440A1E2E79030072D4A6 /* CB_Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CB_Utility.h; path = Utility/CB_Utility.h; sourceTree = "<group>"; };
+		31BD440B1E2E79030072D4A6 /* CB_Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CB_Utility.m; path = Utility/CB_Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +117,12 @@
 		316C1AE01E2D1AF8001B24B8 /* SnakeLadder */ = {
 			isa = PBXGroup;
 			children = (
+				316C1B251E2D2FDA001B24B8 /* Utility */,
+				316C1B231E2D2B3F001B24B8 /* Model */,
+				316C1B221E2D2B33001B24B8 /* Controller */,
+				316C1B271E2DC38F001B24B8 /* PrefixHeader.pch */,
 				316C1AE41E2D1AF8001B24B8 /* AppDelegate.h */,
 				316C1AE51E2D1AF8001B24B8 /* AppDelegate.m */,
-				316C1AE71E2D1AF8001B24B8 /* ViewController.h */,
-				316C1AE81E2D1AF8001B24B8 /* ViewController.m */,
 				316C1AEA1E2D1AF8001B24B8 /* Main.storyboard */,
 				316C1AF01E2D1AF8001B24B8 /* Assets.xcassets */,
 				316C1AF21E2D1AF8001B24B8 /* LaunchScreen.storyboard */,
@@ -141,6 +157,36 @@
 				316C1B0B1E2D1AF8001B24B8 /* Info.plist */,
 			);
 			path = SnakeLadderUITests;
+			sourceTree = "<group>";
+		};
+		316C1B221E2D2B33001B24B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				316C1AE71E2D1AF8001B24B8 /* ViewController.h */,
+				316C1AE81E2D1AF8001B24B8 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		316C1B231E2D2B3F001B24B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				316C1B181E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.h */,
+				316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */,
+				316C1B1A1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.h */,
+				316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		316C1B251E2D2FDA001B24B8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				316C1B261E2D3000001B24B8 /* CB_Constants.h */,
+				31BD440A1E2E79030072D4A6 /* CB_Utility.h */,
+				31BD440B1E2E79030072D4A6 /* CB_Utility.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +251,7 @@
 		316C1AD61E2D1AF7001B24B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Cricbuzz;
 				TargetAttributes = {
 					316C1ADD1E2D1AF7001B24B8 = {
@@ -279,10 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316C1AE91E2D1AF8001B24B8 /* ViewController.m in Sources */,
-				316C1AE61E2D1AF8001B24B8 /* AppDelegate.m in Sources */,
-				316C1AEF1E2D1AF8001B24B8 /* SnakeLadder.xcdatamodeld in Sources */,
+				316C1B2D1E2E1042001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */,
+				316C1B2B1E2E0F59001B24B8 /* AppDelegate.m in Sources */,
+				316C1B2A1E2E0F4D001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */,
+				316C1B281E2E0F31001B24B8 /* ViewController.m in Sources */,
 				316C1AE31E2D1AF8001B24B8 /* main.m in Sources */,
+				31BD440C1E2E79030072D4A6 /* CB_Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316C1B1D1E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */,
 				316C1AFF1E2D1AF8001B24B8 /* SnakeLadderTests.m in Sources */,
+				316C1B201E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316C1B1E1E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */,
 				316C1B0A1E2D1AF8001B24B8 /* SnakeLadderUITests.m in Sources */,
+				316C1B211E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +407,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -377,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,6 +455,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -430,6 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83KX654Q4N;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = SnakeLadder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricbuzz.SnakeLadder;
@@ -442,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83KX654Q4N;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = SnakeLadder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricbuzz.SnakeLadder;
@@ -518,6 +574,7 @@
 				316C1B101E2D1AF8001B24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316C1B111E2D1AF8001B24B8 /* Build configuration list for PBXNativeTarget "SnakeLadderTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +583,7 @@
 				316C1B131E2D1AF8001B24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316C1B141E2D1AF8001B24B8 /* Build configuration list for PBXNativeTarget "SnakeLadderUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +592,7 @@
 				316C1B161E2D1AF8001B24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

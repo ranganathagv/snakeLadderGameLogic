@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SnakeLadder+CoreDataProperties.h"
 
 @interface ViewController : UIViewController
 
-
+- (void)createGameboardPositions; // Testcase written for this method 
 @end
 

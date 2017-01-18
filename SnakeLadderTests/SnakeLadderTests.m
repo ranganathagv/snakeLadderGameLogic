@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface SnakeLadderTests : XCTestCase
 
@@ -25,8 +26,9 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *myVcObj = [sb instantiateViewControllerWithIdentifier:@"gameScreenSbId"];
+    [myVcObj createGameboardPositions];
 }
 
 - (void)testPerformanceExample {
