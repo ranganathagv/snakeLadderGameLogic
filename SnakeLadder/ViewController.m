@@ -174,7 +174,7 @@
             } else if (_dialButton.tag <= NO_OF_PLAYERS){ // show whose turn is next
                 NSError *error = nil;
                 NSFetchRequest *req = [[NSFetchRequest alloc] initWithEntityName:@"SnakeLadder"];
-                [req setPredicate:[NSPredicate predicateWithFormat:@"playerName == %@", [NSString stringWithFormat:@"Player %ld",_dialButton.tag]]];
+                [req setPredicate:[NSPredicate predicateWithFormat:@"playerName == %@", [NSString stringWithFormat:@"Player %ld",(long)_dialButton.tag]]];
                 NSArray *result = [context executeFetchRequest:req error:&error];
                 if (result.count) {
                     dispatch_async(dispatch_get_main_queue(), ^{

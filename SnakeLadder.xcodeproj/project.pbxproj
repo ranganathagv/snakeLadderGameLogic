@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313BE5621E2FE86E00E56AFF /* SnakeLadder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AED1E2D1AF8001B24B8 /* SnakeLadder.xcdatamodeld */; };
 		316C1AE31E2D1AF8001B24B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE21E2D1AF8001B24B8 /* main.m */; };
 		316C1AEC1E2D1AF8001B24B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C1AEA1E2D1AF8001B24B8 /* Main.storyboard */; };
 		316C1AF11E2D1AF8001B24B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316C1AF01E2D1AF8001B24B8 /* Assets.xcassets */; };
@@ -18,9 +19,7 @@
 		316C1B201E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
 		316C1B211E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
 		316C1B281E2E0F31001B24B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE81E2D1AF8001B24B8 /* ViewController.m */; };
-		316C1B2A1E2E0F4D001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B1B1E2D2B1B001B24B8 /* SnakeLadder+CoreDataProperties.m */; };
 		316C1B2B1E2E0F59001B24B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1AE51E2D1AF8001B24B8 /* AppDelegate.m */; };
-		316C1B2D1E2E1042001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 316C1B191E2D2B1B001B24B8 /* SnakeLadder+CoreDataClass.m */; };
 		31BD440C1E2E79030072D4A6 /* CB_Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BD440B1E2E79030072D4A6 /* CB_Utility.m */; };
 /* End PBXBuildFile section */
 
@@ -325,9 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316C1B2D1E2E1042001B24B8 /* SnakeLadder+CoreDataClass.m in Sources */,
+				313BE5621E2FE86E00E56AFF /* SnakeLadder.xcdatamodeld in Sources */,
 				316C1B2B1E2E0F59001B24B8 /* AppDelegate.m in Sources */,
-				316C1B2A1E2E0F4D001B24B8 /* SnakeLadder+CoreDataProperties.m in Sources */,
 				316C1B281E2E0F31001B24B8 /* ViewController.m in Sources */,
 				316C1AE31E2D1AF8001B24B8 /* main.m in Sources */,
 				31BD440C1E2E79030072D4A6 /* CB_Utility.m in Sources */,
@@ -486,6 +484,7 @@
 				DEVELOPMENT_TEAM = 83KX654Q4N;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = SnakeLadder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricbuzz.SnakeLadder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +498,7 @@
 				DEVELOPMENT_TEAM = 83KX654Q4N;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = SnakeLadder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricbuzz.SnakeLadder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
